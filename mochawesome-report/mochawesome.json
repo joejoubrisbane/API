@@ -1,0 +1,398 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 9,
+    "passes": 7,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-04-05T09:25:44.354Z",
+    "end": "2021-04-05T09:25:49.270Z",
+    "duration": 4916,
+    "testsRegistered": 9,
+    "passPercent": 77.77777777777779,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "10bf8fef-cf97-4df9-9a7d-e315301684ca",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "df18a23d-6cf6-404d-aa1e-94f1c95bbcfd",
+          "title": "POST",
+          "fullFile": "D:\\PCCW\\API\\test\\post.js",
+          "file": "\\test\\post.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "17e1754a-d105-4a01-9a43-adc5a7974c3a",
+              "title": "POST",
+              "fullFile": "D:\\PCCW\\API\\test\\post.js",
+              "file": "\\test\\post.js",
+              "beforeHooks": [
+                {
+                  "title": "\"before all\" hook in \"POST\"",
+                  "fullTitle": "POST POST \"before all\" hook in \"POST\"",
+                  "timedOut": false,
+                  "duration": 542,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); });",
+                  "err": {},
+                  "uuid": "57da6f05-70a8-47e2-8564-e3c5d1692cb0",
+                  "parentUUID": "17e1754a-d105-4a01-9a43-adc5a7974c3a",
+                  "isHook": true,
+                  "skipped": false
+                }
+              ],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "can POST a new post",
+                  "fullTitle": "POST POST can POST a new post",
+                  "timedOut": false,
+                  "duration": 497,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); });",
+                  "err": {},
+                  "uuid": "c52fe4c9-e89c-402b-860d-164e1391dbe3",
+                  "parentUUID": "17e1754a-d105-4a01-9a43-adc5a7974c3a",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should get the post by id",
+                  "fullTitle": "POST POST should get the post by id",
+                  "timedOut": false,
+                  "duration": 475,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); });",
+                  "err": {},
+                  "uuid": "9b8148f1-852a-45e7-ba3e-92de47d5a596",
+                  "parentUUID": "17e1754a-d105-4a01-9a43-adc5a7974c3a",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "401 unauthorized",
+                  "fullTitle": "POST POST 401 unauthorized",
+                  "timedOut": false,
+                  "duration": 481,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); });",
+                  "err": {},
+                  "uuid": "45cfe180-857b-490e-9dda-71b1000fa430",
+                  "parentUUID": "17e1754a-d105-4a01-9a43-adc5a7974c3a",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "422 Validation Failed",
+                  "fullTitle": "POST POST 422 Validation Failed",
+                  "timedOut": false,
+                  "duration": 486,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); });",
+                  "err": {},
+                  "uuid": "3482c731-49fb-4a24-a0df-98a1514ed1e2",
+                  "parentUUID": "17e1754a-d105-4a01-9a43-adc5a7974c3a",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "c52fe4c9-e89c-402b-860d-164e1391dbe3",
+                "9b8148f1-852a-45e7-ba3e-92de47d5a596",
+                "45cfe180-857b-490e-9dda-71b1000fa430",
+                "3482c731-49fb-4a24-a0df-98a1514ed1e2"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1939,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "2296fcad-2ebd-43d8-8d9c-23ab31800fc1",
+          "title": "Users",
+          "fullFile": "D:\\PCCW\\API\\test\\user.js",
+          "file": "\\test\\user.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "fea70226-ed70-4d8e-996b-faba81f85076",
+              "title": "POST",
+              "fullFile": "D:\\PCCW\\API\\test\\user.js",
+              "file": "\\test\\user.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "POST /users",
+                  "fullTitle": "Users POST POST /users",
+                  "timedOut": false,
+                  "duration": 492,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); });",
+                  "err": {
+                    "message": "AssertionError: expected undefined to equal 'Arnaldo_Olson76@gmail.com'",
+                    "estack": "AssertionError: expected undefined to equal 'Arnaldo_Olson76@gmail.com'\n    at _callee$ (test\\/user.js:20:43)\n    at tryCatch (node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (test\\user.js:11:103)\n    at _next (test\\user.js:13:194)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+                    "diff": null
+                  },
+                  "uuid": "8ca65f4d-0233-4ffa-a578-d80561948200",
+                  "parentUUID": "fea70226-ed70-4d8e-996b-faba81f85076",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [],
+              "failures": [
+                "8ca65f4d-0233-4ffa-a578-d80561948200"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 492,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "32084ddf-6894-446e-80f8-85f088ea55e4",
+              "title": "Get",
+              "fullFile": "D:\\PCCW\\API\\test\\user.js",
+              "file": "\\test\\user.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Get /usersundefined is not empty",
+                  "fullTitle": "Users Get Get /usersundefined is not empty",
+                  "timedOut": false,
+                  "duration": 465,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); });",
+                  "err": {
+                    "message": "AssertionError: expected { message: 'Resource not found' } to have deep property 'email'",
+                    "estack": "AssertionError: expected { message: 'Resource not found' } to have deep property 'email'\n    at _callee2$ (test\\/user.js:30:39)\n    at tryCatch (node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (test\\user.js:11:103)\n    at _next (test\\user.js:13:194)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+                    "diff": null
+                  },
+                  "uuid": "ef374b46-c64c-41cb-a41e-77d8390ccd18",
+                  "parentUUID": "32084ddf-6894-446e-80f8-85f088ea55e4",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Get /users with params",
+                  "fullTitle": "Users Get Get /users with params",
+                  "timedOut": false,
+                  "duration": 500,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "return _common[\"default\"].get(\"users/?page=5&gender=female&access-token=\".concat(TOKEN)).then(function (res) {\n  res.body.data.forEach(function (user) {\n    (0, _index.expect)(user.gender).to.be.eq(\"Female\");\n  });\n  (0, _index.expect)(res.body.data).not.to.be.empty;\n});",
+                  "err": {},
+                  "uuid": "6e933843-9867-4f6c-bd02-a7bb04729f3a",
+                  "parentUUID": "32084ddf-6894-446e-80f8-85f088ea55e4",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "6e933843-9867-4f6c-bd02-a7bb04729f3a"
+              ],
+              "failures": [
+                "ef374b46-c64c-41cb-a41e-77d8390ccd18"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 965,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "0f5bfc0c-ed42-4b55-ad49-fa5938106944",
+              "title": "PUT",
+              "fullFile": "D:\\PCCW\\API\\test\\user.js",
+              "file": "\\test\\user.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "PUT /user/:id",
+                  "fullTitle": "Users PUT PUT /user/:id",
+                  "timedOut": false,
+                  "duration": 483,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var data = {\n  status: \"Active\",\n  name: _faker[\"default\"].name.findName()\n};\nreturn _common[\"default\"].put(\"users/\".concat(userId)).set(\"Authorization\", \"Bearer \".concat(TOKEN)).send(data).then(function (res) {\n  console.log(\"put\", res.body);\n});",
+                  "err": {},
+                  "uuid": "360f17ed-1cfd-45b9-94de-bcdb1f260463",
+                  "parentUUID": "0f5bfc0c-ed42-4b55-ad49-fa5938106944",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "360f17ed-1cfd-45b9-94de-bcdb1f260463"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 483,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "d6c864a3-8982-439f-9bc8-a3ba74cf0c64",
+              "title": "DELETE",
+              "fullFile": "D:\\PCCW\\API\\test\\user.js",
+              "file": "\\test\\user.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "DELETE /user/:id",
+                  "fullTitle": "Users DELETE DELETE /user/:id",
+                  "timedOut": false,
+                  "duration": 466,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var data = {\n  status: \"Active\",\n  name: \"Modified +\".concat(Math.floor(Math.random() * 999))\n};\nreturn _common[\"default\"][\"delete\"](\"users/\".concat(userId)).set(\"Authorization\", \"Bearer \".concat(TOKEN)).send(data).then(function (res) {\n  console.log(\"delete\", res.body);\n});",
+                  "err": {},
+                  "uuid": "d68c5efb-54b0-470e-be2e-08a31a8f26cf",
+                  "parentUUID": "d6c864a3-8982-439f-9bc8-a3ba74cf0c64",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "d68c5efb-54b0-470e-be2e-08a31a8f26cf"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 466,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.3.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
